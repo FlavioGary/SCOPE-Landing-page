@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Scope app</title>
+</head>
+<body>
+    <nav>
+        <h3 class="font-scope1">SCOPE</h3>
+        <ul>
+            <li><a href="#img-contenidos">Contenido</a></li>
+            <li><a href="#apps">Descargar</a></li>
+            <li>
+            <a href="#form-control">Contacto</a></li>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="row">
+             <div class="col card">
+                <h1><span class="font-scope">SCOPE</span>. Tu mejor aplicación de streaming en <span class="font-scope">Argentina!</span></h1>
+            </div>
+            <div class="col">
+                <img src="images/logo Scope.png" alt="Mockup" class="img-logo">
+            </div>
+        </section>
+        <section class="row bg-dark" >
+            <div class="col" data-aos="fade-right">
+                <img src="images/peli-show-serie.png" alt="contenidos" id="img-contenidos" >
+            </div>
+            <div class="col card">
+                <h1>Las mejores <span class="font-scope">ficciones y shows</span> nacionales en un solo lugar.</h1>
+            </div>
+        </section>    
+            <section class="row">
+                <div class="col card">
+                    <h1>Con un sistema de opiniones y reseñas renovado.</h1>
+                </div>
+                <div class="col" data-aos="fade-left">
+                    <img src="images/mockup phone3 reseñas.png" alt="" class="img-mockup">
+                </div>
+            </section>
+        </section>
+        <section class="row bg-dark">
+            <div class="col" data-aos="fade-right">
+                <img src="images/mockup phone2.png" alt="Scope Logo" class="img-mockup">
+            </div>
+            <div class="col card2">
+                <h1><span class="font-scope">Disponible</span> en todos tus dispositivos!</h1>
+                <div class="row" data-aos="fade-up">
+                    <a href="https://play.google.com/store/games?hl=es_AR" target="_blank"><img src="images/disponible-en-google-play-badge.png" alt="Google play" id="apps">
+                    </a>
+                    <a href="https://www.apple.com/la/app-store/" target="_blank"><img src="images/app store.png" alt="App Store" id="apps">
+                    </a>
+                </div>  
+            </div>
+    </main>
+    <footer>
+        
+        
+        <section class="row">
+            <div class="col">
+                <div class="row">
+                    <img src="images/incaa.jpg" alt="Incaa" class="width" >
+                    <img src="images/Logo-Cine-Argentino-1-1024x1024.png" alt="Cine Argentino" class="width">
+                </div>
+                <div class="row">  
+                     <img src="images/flow.png" alt="Flow" class="width2">
+                    <img src="images/Televisión_Pública_(Argentina_2021).png" alt="Flow" class="width2">
+                </div>
+                    
+                
+                
+            </div>
+            <div class="col">
+                <h1 class="contacto">Contacto</h1>
+                <form action="" method="get">
+                    <label for="">Nombre</label>
+                    <input id="form-control" type="text" name="Nombre">
+
+                    <label for="">Mail</label>
+                    <input id="form-control" type="email" name="email" id="">
+
+                    <label for="">Mensaje</label>
+                    <textarea id="form-control" name="form-control" rows="6" id=""></textarea>
+                    <button class="button" type="submit">Enviar</button>
+                    
+                </form>
+                
+            </div>
+            
+        </section>
+            
+        <p>Flavio Garay</p>
+                <p>2025</p>
+                <p>Maquetado y Desarrollo web</p>
+    </footer> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+</body>
+</html>

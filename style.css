@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+.font-scope {
+    font-family: "Train One";
+    color: #41c3ff;
+}
+
+.font-scope1 {
+    font-family: "Train One";
+    color: #000000;
+}
+
+.bg-dark {
+    background-color: #00000088;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 1500px;
+    background-color:rgb(255, 173, 241);
+    padding: 30px 30px;
+    border: 2px solid rgb(224, 10, 196);
+    box-shadow: 2px 2px 10px #be17be;
+    z-index: 2;
+    position: relative;
+    top: 0;
+    margin: auto auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 320px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #be17be;
+}
+
+button {
+    text-decoration: none;
+    width: 100px;
+    height: 28px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 47, 255);
+}
+
+button:hover {
+    background-color: #ffd7ff;
+    text-decoration: none
+}
+
+main {
+    background-image: url(images/Background\ Wireframe.png);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 2700px;
+    margin: auto auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.img-mockup {
+    width: 650px;
+    
+}
+
+#Section-1 {
+    width: 200px;
+    height: 100px;
+    margin-left: 1000px;
+    margin-top: 100px;
+    color: white;
+    font-size: 18px;
+}
+
+.img-logo {
+    width: 400px;
+    margin-left: 200px;
+}
+
+#img-contenidos {
+    width: 800px;
+}
+
+.btn-down {
+    height: 35px;
+    font-size: 20px;
+    width: 140px;
+    font-weight: 600;
+    background-color: #6644ff;
+    color: white;
+}
+
+.btn-down:hover {
+    background-color: #a995ff;
+}
+
+#apps {
+    width: 320px;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    border: solid#000000;
+    width: 1500px;
+    height: 700px;
+}
+
+.card {
+    border: solid 2px rgb(2, 175, 255);
+    border-radius: 30px;
+    background-color: #6600747a;
+    height: 300px;
+}
+
+.card2 {
+    border: solid 2px rgb(2, 175, 255);
+    border-radius: 30px;
+    background-color: #6600747a;
+    height: 400px;
+}
+
+.card3 {
+    border: solid 2px rgb(2, 175, 255);
+    border-radius: 30px;
+    background-color: #6600747a;
+    height: 500px;
+    width: 400px;
+}
+
+.col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+
+footer {
+   background-color: #000000;
+    color: white;
+    width: 1500px;
+    margin: auto auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+form {
+    width: 15px;
+    display: inline-block;
+    vertical-align: top;
+    align-items: center;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    margin-left: 200px;
+
+}
+
+#form-control {
+    display: block;
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid #2d3039;
+
+}
+
+.width {
+    width: 400px;
+}
+
+.width2 {
+    width: 200px;
+    margin-right: 70px;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+.contacto {
+    margin-left: 30px;
+}
+
+
+/*
+ <img src="images/logo Scope.png" alt="Scope Logo" class="img-logo">
+                <button class="btn-down">Descargar</button>
+                <img src="images/apps.png" alt="Disponibles en" class="apps">
+
+                //  <a href=""><img src="images/apps.png" alt="Disponibles en" id="apps"></a>    
+
+                #apps {
+    width: 700px;
+    margin-left: 30px;
+}
